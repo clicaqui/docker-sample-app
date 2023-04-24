@@ -43,5 +43,5 @@ app.post('/store-goal', (req, res) => {
   res.redirect('/');
 });
 
-let port = process.env.PORT || 8080;
+let port = process.env.PORT || 8000;
 app.listen(port);
